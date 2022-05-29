@@ -5,6 +5,8 @@
 :root{
   --tg-theme-button-color:orange;
   --tg-theme-bg-color:blue;
+  --tg-theme-text-color:black;
+  --tg-theme-button-text-color:black;
 }
 
 body {
@@ -14,10 +16,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:var(----tg-theme-bg-color);
+  background-color:var(--tg-theme-bg-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.theme-border
+{
+  border-color: var(--tg-theme-button-color);
+}
+.theme-text
+{
+  color:var(--tg-theme-text-color);
+}
+.theme-bg
+{
+  background-color: var(--tg-theme-bg-color);
+}
+.theme-button-text
+{
+  color: var(--tg-theme-button-text-color);
+}
+.theme-button
+{
+  background-color: var(--tg-theme-button-color);
 }

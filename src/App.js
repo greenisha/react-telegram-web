@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-    <div className='text-center text-5xl font-bold'>
+    <div className='text-center text-5xl font-bold theme-text'>
     Order food
     </div>
       <Cart cartItems = {cartItems}></Cart>
