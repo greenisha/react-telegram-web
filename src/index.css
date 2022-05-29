@@ -4,6 +4,7 @@
 
 :root{
   --tg-theme-button-color:orange;
+  --tg-theme-bg-color:blue;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:rebeccapurple;
+  background-color:var(----tg-theme-bg-color);
 }
 
 code {
